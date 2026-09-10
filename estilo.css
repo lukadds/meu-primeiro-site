@@ -1,0 +1,50 @@
+* {
+box-sizing: border-box;&lt;br/&gt;
+
+margin: 0;&lt;br/&gt;
+padding: 0;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;&lt;br/&gt;
+line-height: 1.6;&lt;br/&gt;
+background-color: #f4f4f4;&lt;br/&gt;
+color: #333;
+}
+
+.cabecalho {
+background-color: #2c3e50;&lt;br/&gt;
+color: white;&lt;br/&gt;
+text-align: center;&lt;br/&gt;
+padding: 30px;
+}
+
+.conteudo {
+max-width: 800px;&lt;br/&gt;
+margin: 20px auto; /* centraliza a caixa */&lt;br/&gt;
+padding: 20px;&lt;br/&gt;
+background-color: white;&lt;br/&gt;
+border-radius: 8px;
+}
+
+.destaque {
+background-color: #ffeaa7;&lt;br/&gt;
+padding: 10px;&lt;br/&gt;
+border-left: 4px solid #f39c12;
+}
+
+.cartoes {
+display: flex;&lt;br/&gt;
+gap: 15px;&lt;br/&gt;
+margin-top: 20px;
+
+}
+
+.cartao {
+flex: 1; /* cada cartão ocupa largura igual */&lt;br/&gt;
+background-color: #3498db;&lt;br/&gt;
+color: white;&lt;br/&gt;
+padding: 20px;&lt;br/&gt;
+text-align: center;&lt;br/&gt;
+border-radius: 6px;
+}
