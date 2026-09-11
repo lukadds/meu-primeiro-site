@@ -33,34 +33,64 @@ body {
 }
 
 .cartoes {
-  display: flex;<br/>
-  gap: 15px;<br/>
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 15px;
   margin-top: 20px;
 }
 
-.charmander {
-  flex: 1;              /* cada cartão ocupa largura igual */<br/>
-  background-color: #3498db;<br/>
-  color: #FFA500;<br/>
-  padding: 20px;<br/>
-  text-align: center;<br/>
+.cartao {
+  flex: 1;
+  height: 240px;
+  border: 0;
+  background-color: #3498db;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
   border-radius: 6px;
 }
 
-.squirtle {
-  flex: 1;              /* cada cartão ocupa largura igual */<br/>
-  background-color: #3498db;<br/>
-  color: #0000FF;<br/>
-  padding: 20px;<br/>
-  text-align: center;<br/>
-  border-radius: 6px;
+.cartao img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
+
+.cartao:hover,
+.cartao:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgb(0 0 0 / 20%);
+}
+
+.cartao:focus-visible {
+  outline: 3px solid #f39c12;
+  outline-offset: 3px;
+}
+
+.charmander {
+  color: #FFA500;
+}
+
+.squirtle {
+  color: #0000FF;
+}
+
 .bulbasaur {
-  flex: 1;              /* cada cartão ocupa largura igual */<br/>
-  background-color: #3498db;<br/>
-  color: #00FF00;<br/>
-  padding: 20px;<br/>
-  text-align: center;<br/>
-  border-radius: 6px;
+  color: #00FF00;
+}
+
+@media (max-width: 600px) {
+  .cartoes {
+    flex-direction: column;
+  }
+
+  .cartao {
+    width: 100%;
+    height: 220px;
+  }
 }
 
