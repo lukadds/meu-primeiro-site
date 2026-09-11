@@ -41,7 +41,7 @@ body {
 .cartao {
   flex: 1;              /* cada cartão ocupa largura igual */<br/>
   background-color: #3498db;<br/>
-  color: white;<br/>
+  color: #3498db;<br/>
   padding: 20px;<br/>
   text-align: center;<br/>
   border-radius: 6px;
