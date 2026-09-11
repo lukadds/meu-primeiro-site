@@ -38,11 +38,29 @@ body {
   margin-top: 20px;
 }
 
-.cartao {
+.charmander {
   flex: 1;              /* cada cartão ocupa largura igual */<br/>
   background-color: #3498db;<br/>
-  color: #3498db;<br/>
+  color: #FFA500;<br/>
   padding: 20px;<br/>
   text-align: center;<br/>
   border-radius: 6px;
 }
+
+.squirtle {
+  flex: 1;              /* cada cartão ocupa largura igual */<br/>
+  background-color: #3498db;<br/>
+  color: #0000FF;<br/>
+  padding: 20px;<br/>
+  text-align: center;<br/>
+  border-radius: 6px;
+}
+.bulbasaur {
+  flex: 1;              /* cada cartão ocupa largura igual */<br/>
+  background-color: #3498db;<br/>
+  color: #00FF00;<br/>
+  padding: 20px;<br/>
+  text-align: center;<br/>
+  border-radius: 6px;
+}
+
